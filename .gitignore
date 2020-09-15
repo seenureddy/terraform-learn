@@ -1,5 +1,6 @@
 resources/.terraform/*
-.terraform/*
+aws-setup-setups/.terraform/*
 **/.terraform/*
 **/terraform.tfstate
 **/terraform.tfstate.*
+.DS_Store
