@@ -5,8 +5,10 @@
 
 * To clean up and delete all resources after you're done, run `terraform destroy`
 
-* Run terraform plan -out out.terraform `to save changes to specific file`
-* Run terraform apply out.terraform `build from the previously saved changes`
+## Storing the state of terraform
+
+* Run `terraform plan -out out.terraform` `to save changes to specific file`
+* Run `terraform apply out.terraform` `build from the previously saved changes`
 
 * Run `terraform plan -out file; terraform apply file; rm file`
 
@@ -33,6 +35,16 @@ $ terraform output public_ip
  	 secret_key = "SECRET_KEY_HERE"
  	 region     = "us-east-1"
 ```
+## Setup Variables
+
+* Pass the variables from command line
+
+`terraform apply -var-file="variables.tf"`
+
+or
+
+`terraform apply -var="AWS_ACCESS_KEY_ID=value"`
+
 
 # Blog: 
 
