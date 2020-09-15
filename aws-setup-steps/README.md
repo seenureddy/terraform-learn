@@ -45,6 +45,19 @@ or
 
 `terraform apply -var="AWS_ACCESS_KEY_ID=value"`
 
+Note: To keep the vairables in Persitance need to create the `terraform.tfvars` file.
+
+* Export the variables in the command prompt. apply `terraform apply`
+
+`Export TF_VAR_AWS_ACCESS_KEY_ID=value`
+
+* To remove the set variable unset it `unset TF_VAR_AWS_ACCESS_KEY_ID`
+
+
+## Terraform File format
+
+`terraform fmt -diff`
+
 
 # Blog: 
 
