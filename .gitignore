@@ -1,2 +1,4 @@
 resources/.terraform/*
 .terraform/*
+**/.terraform/*
+**/terraform.tfstate.*
