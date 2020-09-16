@@ -4,3 +4,4 @@ aws-setup-setups/.terraform/*
 **/terraform.tfstate
 **/terraform.tfstate.*
 .DS_Store
+**/metrics-server-0.3.6
